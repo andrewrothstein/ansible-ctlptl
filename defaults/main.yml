@@ -1,0 +1,20 @@
+---
+# defaults file for ctlptl
+ctlptl_ver: 0.5.5
+ctlptl_os: linux
+ctlptl_arch: x86_64
+ctlptl_mirror: https://github.com/tilt-dev/ctlptl/releases/download
+ctlptl_parent_install_dir: /usr/local
+ctlptl_checksums:
+  # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/checksums.txt
+  '0.5.5':
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.mac.arm64.tar.gz
+    mac.arm64: sha256:4df97963857ae1b54d1c0b57c815f88047c02d12934044ac20285a7233dbf3dc
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.mac.x86_64.tar.gz
+    mac.x86_64: sha256:f853b20a35d78373c8d92d0ea075b6a7d9ffb1ec115b3c11c87d1d4c7554b8b4
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.linux.arm64.tar.gz
+    linux.arm64: sha256:54ef2003e29c29f3aa8f7287a8576064f7b742a95959277b56221dd44afb07b4
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.linux.x86_64.tar.gz
+    linux.x86_64: sha256:b13551295ae902fc7e9366acb6cd0a503480cfb52dd6f490add270fec9db34ff
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.windows.x86_64.zip
+    windows.x86_64: sha256:8349ab83dec8c65fb652ed7e9b39366d7c5fb5fa399415025a5a2880e70cff4c

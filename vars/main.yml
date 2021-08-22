@@ -1,0 +1,12 @@
+---
+# vars file for ctlptl
+ctlptl_platform: '{{ ctlptl_os }}.{{ ctlptl_arch }}'
+ctlptl_name: ctlptl.{{ ctlptl_ver }}.{{ ctlptl_platform }}
+ctlptl_archive: '{{ ctlptl_name }}.{{ ctlptl_archive_type | default("tar.gz") }}'
+ctlptl_tmp_archive: /tmp/{{ ctlptl_archive }}
+ctlptl_url: '{{ ctlptl_mirror }}/v{{ ctlptl_ver }}/{{ ctlptl_archive }}'
+ctlptl_checksum: '{{ ctlptl_checksums[ctlptl_ver][ctlptl_platform] }}'
+
+ctlptl_install_dir: '{{ ctlptl_parent_install_dir }}/{{ ctlptl_name }}'
+ctlptl_exe: '{{ ctlptl_install_dir }}/ctlptl'
+ctlptl_link: '{{ ctlptl_parent_install_dir }}/bin/ctlptl'
