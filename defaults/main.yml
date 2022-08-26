@@ -1,6 +1,6 @@
 ---
 # defaults file for ctlptl
-ctlptl_ver: 0.5.5
+ctlptl_ver: 0.8.5
 ctlptl_os: linux
 ctlptl_arch: x86_64
 ctlptl_mirror: https://github.com/tilt-dev/ctlptl/releases/download
@@ -18,3 +18,15 @@ ctlptl_checksums:
     linux.x86_64: sha256:b13551295ae902fc7e9366acb6cd0a503480cfb52dd6f490add270fec9db34ff
     # https://github.com/tilt-dev/ctlptl/releases/download/v0.5.5/ctlptl.0.5.5.windows.x86_64.zip
     windows.x86_64: sha256:8349ab83dec8c65fb652ed7e9b39366d7c5fb5fa399415025a5a2880e70cff4c
+  # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/checksums.txt
+  '0.8.5':
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/ctlptl.0.8.5.mac.arm64.tar.gz
+    mac.arm64: sha256:9f8b74fc384738389cb119c0c943f5392c3359dfcd264b5301f664d56655d93d
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/ctlptl.0.8.5.mac.x86_64.tar.gz
+    mac.x86_64: sha256:33545fa1c4a796eb33819de9944d331141cb6eed63ca328ef8cba8069edefa3a
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/ctlptl.0.8.5.linux.arm64.tar.gz
+    linux.arm64: sha256:673a89b8c74c19cdbbca13b1e6dfcad211e1ff3c9a5d971f05b461acb383e2e3
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/ctlptl.0.8.5.linux.x86_64.tar.gz
+    linux.x86_64: sha256:2be5b70ec5a5cc232a895ff380a9864ac9c32e715a983caa810d67cb63dd8209
+    # https://github.com/tilt-dev/ctlptl/releases/download/v0.8.5/ctlptl.0.8.5.windows.x86_64.zip
+    windows.x86_64: sha256:e369420630449299123af0906ed6ecb54953489e4144751b220b29996a1a17bf
